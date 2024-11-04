@@ -54,6 +54,7 @@ a. 小題
 
 Ans
 ```py
+# 步驟 a: 建立一個 10x10 的二維整數陣列 map，每個元素初始為 0
 map: list[list[int]] = [[0 for _ in range(10)] for _ in range(10)]
 ```
 

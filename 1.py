@@ -9,7 +9,7 @@ rowMap = []
     #rowMap.append(boom)
 rowMap: list[int] = [0, 7, 13, 28, 44, 62, 74, 75, 87, 90]
 
-# 步驟 c: 根據 `rowMap` 裡的索引值在 `map` 中標記地雷
+# 步驟 c: 根據 rowMap 裡的索引值在 map 中標記地雷
 
 for index in rowMap:
     row = index // 10  # 使用索引計算對應的行
